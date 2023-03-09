@@ -10,10 +10,10 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  @extend %font-name-400;
+  background-color: $bg;
+  @extend %stolzl-400;
   color: $text;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   min-height: 100%;
   min-width: 320px;
@@ -29,15 +29,17 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1330px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.container-narrow {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @extend %gothampro-700;
 }
 
 input,
@@ -46,6 +48,10 @@ textarea {
   &:focus {
     outline: transparent;
   }
+}
+
+a {
+  color: $text;
 }
 
 button {
@@ -83,4 +89,59 @@ textarea {
   &:active {
     border: 1px solid yellowgreen;
   }
+}
+
+.border-btn {
+  background-color: transparent;
+  color: $text;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 2px solid $accent;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  display: inline-block;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $accent;
+  }
+}
+
+.bg-btn {
+  background-color: $accent;
+  color: $text;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 2px solid $accent;
+  border-radius: 5px;
+  transition: background-color 0.5s, border-color 0.5s;
+  display: inline-block;
+  font-size: 18px;
+  @extend %gothampro-700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    border-color: $text;
+  }
+}
+
+.text-bg {
+  font-size: 14px;
+  color: $bg;
+  padding: 9px 20px;
+  background-color: $text;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  @extend %gothampro-700;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  @extend %gothampro_black-900;
+  letter-spacing: 0.05em;
 }

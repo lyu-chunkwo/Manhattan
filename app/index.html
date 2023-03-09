@@ -7,22 +7,678 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.png" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-  <title>New GULP project</title>
+  <title>Manhattan</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body class="scroll">
 
   <header class="header">
-    
+    <div class="container">
+  <nav class="header__nav">
+    <a class="header__logo" href="#">
+      <img class="header__logo-img" src="images/logo.png" alt="LOGOTYPE">
+    </a>
+
+    <ul class="header__menu">
+      <li class="header__item">
+        <a class="header__menu-link" href="#">Главная</a>
+      </li>
+      <li class="header__item">
+        <a class="header__menu-link" href="#">Меню</a>
+      </li>
+      <li class="header__item">
+        <a class="header__menu-link" href="posters-page.html">Афиша</a>
+      </li>
+      <li class="header__item">
+        <a class="header__menu-link" href="cooperation-page.html">Сотрудничество</a>
+      </li>
+      <li class="header__item">
+        <a class="header__menu-link" href="gallery-page.html">Галерея</a>
+      </li>
+      <li class="header__item">
+        <a class="header__menu-link" href="#">Новости</a>
+      </li>
+    </ul>
+
+    <button class="header__btn border-btn" type="button">бронирование</button>
+  </nav>
+</div>
   </header>
 
   <main class="main">
+    <section class="top-content">
+  <div class="container">
+    <div class="top-content__inner">
+      <div class="top-content__item-left" style="background-image: url('images/top_content/bg.jpg')">
+        <div class="top-content__text">
+          <p class="top-content__text-bg text-bg">Since 1996</p>
+          <h2 class="top-content__title">True. Fontanka. Underground.</h2>
+        </div>
+      </div>
 
+      <div class="top-content__item-right">
+        <div class="top-content__controls">
+          <ul class="top-content__controls-items">
+            <li class="top-content__controls-item active" data-services="first">
+              <p class="top-content__controls-link">Ближайшие</p>
+            </li>
+            <li class="top-content__controls-item" data-services="second">
+              <p class="top-content__controls-link">скоро</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="top-content__tabs">
+          <ul class="top-content__tabs-items top-content__tabs-items-first active">
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/1.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/2.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/3.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/4.png" alt="tabs image">
+            </li>
+          </ul>
+
+          <ul class="top-content__tabs-items top-content__tabs-items-second">
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/3.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/2.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/4.png" alt="tabs image">
+            </li>
+            <li class="top-content__tabs-item">
+              <img class="top-content__img" src="images/top_content/tabs/1.png" alt="tabs image">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="menu">
+  <div class="container">
+    <div class="menu__top-text">
+      <div class="menu__top text-bg">Top “Manhattan” menu</div>
+      <h2 class="menu__title section-title">Кухня</h2>
+    </div>
+
+    <ul class="menu__list">
+      <li class="menu__item">
+        <ul class="menu__sub-list">
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/1.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">200 гр</span>
+              <div class="menu__text">
+                <p>
+                  Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/2.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">500 гр</span>
+              <div class="menu__text">
+                <p>
+                  Elit imperdiet faucibus euismod tortor risus volutpat molestie morbi sed. Porta ac eu.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/3.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">400 гр</span>
+              <div class="menu__text">
+                <p>
+                  Pharetra morbi purus hendrerit risus vel consequat nunc, sed. Pharetra nulla imperdiet.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/4.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">300 гр</span>
+              <div class="menu__text">
+                <p>
+                  Leo in arcu in gravida vivamus scelerisque non. Euismod nec amet amet egestas nisl iaculis.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/5.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">500 гр</span>
+              <div class="menu__text">
+                <p>
+                  In mauris, elit nisl sed. Nulla accumsan vestibulum sed velit sagittis quis accumsan.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/6.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">100 гр</span>
+              <div class="menu__text">
+                <p>
+                  Duis quisque tristique nulla cursus justo, etiam viverra nulla cras. Consectetur eget augue.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/7.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">300 гр</span>
+              <div class="menu__text">
+                <p>
+                  In cras pharetra aliquet laoreet. Lectus nisi ante felis quam pharetra in maecenas ut felis.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/8.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">400 гр</span>
+              <div class="menu__text">
+                <p>
+                  Integer dolor et sed tempus non. Adipiscing viverra in viverra quisque pretium. Commodo.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="menu__item">
+        <ul class="menu__sub-list">
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/1.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">200 гр</span>
+              <div class="menu__text">
+                <p>
+                  Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/2.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">500 гр</span>
+              <div class="menu__text">
+                <p>
+                  Elit imperdiet faucibus euismod tortor risus volutpat molestie morbi sed. Porta ac eu.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/3.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">400 гр</span>
+              <div class="menu__text">
+                <p>
+                  Pharetra morbi purus hendrerit risus vel consequat nunc, sed. Pharetra nulla imperdiet.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/4.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">300 гр</span>
+              <div class="menu__text">
+                <p>
+                  Leo in arcu in gravida vivamus scelerisque non. Euismod nec amet amet egestas nisl iaculis.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/5.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">500 гр</span>
+              <div class="menu__text">
+                <p>
+                  In mauris, elit nisl sed. Nulla accumsan vestibulum sed velit sagittis quis accumsan.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/6.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">100 гр</span>
+              <div class="menu__text">
+                <p>
+                  Duis quisque tristique nulla cursus justo, etiam viverra nulla cras. Consectetur eget augue.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/7.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">300 гр</span>
+              <div class="menu__text">
+                <p>
+                  In cras pharetra aliquet laoreet. Lectus nisi ante felis quam pharetra in maecenas ut felis.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="menu__sub-item">
+            <img class="menu__img" src="images/menu/8.jpg" alt="Amet donec">
+
+            <div class="menu__content">
+              <div class="menu__top-content">
+                <h3 class="menu__content-title">Amet donec.</h3>
+                <span class="menu__price">550 ₽</span>
+              </div>
+              <span class="menu__weight">400 гр</span>
+              <div class="menu__text">
+                <p>
+                  Integer dolor et sed tempus non. Adipiscing viverra in viverra quisque pretium. Commodo.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="menu__link-box">
+      <a href="#" class="menu__link bg-btn">все меню</a>
+    </div>
+  </div>
+</section>
+    <section class="events">
+  <div class="container">
+    <div class="events__inner">
+      <ul class="events__items">
+        <li class="events__item">
+          <div class="events__text-bg text-bg">Top “Manhattan” events</div>
+
+          <h2 class="events__title section-title">Банкеты</h2>
+
+          <div class="events__text">
+            <p>
+              Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est
+              interdum eget
+              nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+            </p>
+            <p>
+              Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere
+              vulputate sed
+              morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+            </p>
+            <p>
+              Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam
+              semper at id
+              eleifend.
+            </p>
+          </div>
+
+          <div class="events__link-box">
+            <a href="" class="events__link border-btn">Подробнее</a>
+          </div>
+        </li>
+
+        <li class="events__item">
+          <img class="events__img" src="images/events/events.jpg" alt="Image">
+        </li>
+
+        <li class="events__item">
+          <div class="events__text-bg text-bg">Top “Manhattan” tourists</div>
+
+          <h2 class="events__title section-title">Туристы</h2>
+
+          <div class="events__text">
+            <p>
+              Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est
+              interdum eget
+              nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+            </p>
+            <p>
+              Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere
+              vulputate sed
+              morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+            </p>
+            <p>
+              Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam
+              semper at id
+              eleifend.
+            </p>
+          </div>
+
+          <div class="events__link-box">
+            <a href="" class="events__link border-btn">Подробнее</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    <section class="party">
+  <div class="container">
+    <div class="party__top-text">
+      <div class="party__text-bg text-bg">Top “Manhattan” party</div>
+      <h2 class="party__title section-title">ТЕхрайдер</h2>
+    </div>
+
+    <div class="party__inner">
+      <div class="party__accordion-box">
+        <ul class="party__accordion">
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">Loudspeakers</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">Amplifier</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">FOH</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">Backline</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">Microphone set</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+          <li class="party__item">
+            <div class="party__item-box">
+              <h3 class="party__item-title">DJ equipment</h3>
+              <svg class='party__item-svg' width='21px' height='12'>
+                <use xlink:href='images/svg-sprite/sprite.svg#down'></use>
+              </svg>
+            </div>
+
+            <ul class="party__accordion-content">
+              <li class="party__accordion-item">Acoustic system BELL Top 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Mid 600W x 2</li>
+              <li class="party__accordion-item">Acoustic system BELL Sub 1000W x 2</li>
+              <li class="party__accordion-item">Front monitor Yamaha SM12V 300w x 2</li>
+              <li class="party__accordion-item">Backside monitor Dynacord 500W x 2</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="party__soundmans">
+        <h2 class="party__soundmans-title section-title">
+          Звукорежиссеры клуба МАНХЭТТЕН
+        </h2>
+
+        <div class="party__soundmans-content">
+          <div class="party__soundmans-item">
+            <img class="party__soundmans-img" src="images/party/1.jpg" alt="Изотов Константин">
+            <div class="party__soundmans-name">Изотов Константин</div>
+            <ul class="party__socials">
+              <li class="party__socials-item">
+                <a class="party__socials-link" href="#">
+                  <svg class='party__svg' width='20px' height='12px'>
+                    <use xlink:href='images/svg-sprite/sprite.svg#vk'></use>
+                  </svg>
+                </a>
+                <a class="party__socials-link" href="#">
+                  <svg class='party__svg' width='17px' height='14px'>
+                    <use xlink:href='images/svg-sprite/sprite.svg#tlg'></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="party__soundmans-item">
+            <img class="party__soundmans-img" src="images/party/2.jpg" alt="Изотов Константин">
+            <div class="party__soundmans-name">Давид Хозиев</div>
+            <ul class="party__socials">
+              <li class="party__socials-item">
+                <a class="party__socials-link" href="#">
+                  <svg class='party__svg' width='20px' height='12px'>
+                    <use xlink:href='images/svg-sprite/sprite.svg#vk'></use>
+                  </svg>
+                </a>
+                <a class="party__socials-link" href="#">
+                  <svg class='party__svg' width='17px' height='14px'>
+                    <use xlink:href='images/svg-sprite/sprite.svg#tlg'></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="contacts">
+  <div class="container">
+    <div class="contacts__top">
+      <div class="contacts__text-bg text-bg">Top “Manhattan” place</div>
+      <div class="contacts__title section-title">контакты</div>
+    </div>
+
+    <div class="contacts__content">
+      <div class="contacts__text-box">
+        <ul class="contacts__items">
+          <li class="contacts__text-item">
+            <h3 class="contacts__text-title">Адрес</h3>
+            <div class="contacts__text">
+              Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)
+            </div>
+          </li>
+          <li class="contacts__text-item">
+            <h3 class="contacts__text-title">телефон</h3>
+            <div class="contacts__text">
+              <!-- <a href="#"><a> -->
+              +7 (812) 713-1945
+            </div>
+          </li>
+          <li class="contacts__text-item">
+            <h3 class="contacts__text-title">режим работы</h3>
+            <div class="contacts__text">
+              Ежедневно с 12:00 до 06:00
+            </div>
+          </li>
+        </ul>
+
+        <ul class="contacts__items">
+          <li class="contacts__text-item">
+            <h3 class="contacts__text-title">директор</h3>
+            <div class="contacts__text">
+              Лидия Эмильевна, +7 (921) 963-55-50
+            </div>
+            <!-- <a class="contacts__text-link" href="#"><a> -->
+          </li>
+
+          <li class="contacts__text-item">
+            <h3 class="contacts__text-title">арт-директор</h3>
+            <div class="contacts__text">
+              Илиния Ионашко, +7 (981) 989-43-30
+            </div>
+            <!-- <a class="contacts__text-link" href="#"><a> -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="contacts__map-box">
+        <img class="contacts__map" src="images/map/map.jpg" alt="Map">
+      </div>
+    </div>
+  </div>
+</section>
   </main>
 
   <footer class="footer">
-    
+    <div class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__copy">
+        Copyright © 2022. Все права защищены.
+      </div>
+
+      <div class="footer__develope">
+        Разработка студия <span>Webex</span>
+      </div>
+    </div>
+  </div>
+</div>
   </footer>
 
 

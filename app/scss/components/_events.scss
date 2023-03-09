@@ -1,0 +1,44 @@
+.events {
+  margin-bottom: 150px;
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -22px;
+  }
+
+  &__item {
+    max-width: 376px;
+    margin: 0 22px;
+    text-align: center;
+  }
+
+  &__text-bg {
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+    p {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__img {
+    border-radius: 6px;
+    width: 416px;
+    height: 560px;
+    object-fit: cover;
+  }
+}

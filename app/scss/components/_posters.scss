@@ -1,0 +1,80 @@
+.posters {
+  margin-bottom: 150px;
+
+  &__top {
+    text-align: center;
+  }
+
+  &__text-bg {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+  }
+
+  &__item {
+    margin: 0 12px;
+    position: relative;
+    margin-bottom: 24px;
+    overflow: hidden;
+
+    &:hover {
+      .posters__info-wrap {
+        bottom: 0;
+      }
+    }
+  }
+
+  &__img {
+    width: 306px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  &__info-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 14, 9, 0.9);
+    transition: bottom 0.5s;
+  }
+
+  &__info-box {
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+    @extend %gothampro-700;
+  }
+
+  &__date {
+    padding: 8px 15px;
+    background-color: $accent;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  &__name {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 15px;
+  }
+
+  &__cost {
+    padding: 8px 25px;
+    border: 2px solid $accent;
+    border-radius: 4px;
+    display: inline-block;
+  }
+}

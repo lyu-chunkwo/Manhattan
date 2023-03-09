@@ -1,0 +1,82 @@
+.top-content {
+  margin-bottom: 120px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item-left {
+    max-width: 855px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 540px;
+    border-radius: 6px;
+    position: relative;
+  }
+
+  &__item-right {
+    max-width: 415px;
+    width: 100%;
+    background-color: #2a120a;
+    border-radius: 6px;
+  }
+
+  &__text-bg {
+    font-size: 18px;
+  }
+
+  &__text {
+    position: absolute;
+    left: 60px;
+    bottom: 45px;
+  }
+
+  &__title {
+    max-width: 500px;
+    font-size: 40px;
+    text-transform: uppercase;
+    @extend %gothampro_black-900;
+    letter-spacing: 0.05em;
+  }
+
+  &__controls-items {
+    display: flex;
+  }
+
+  &__controls-item {
+    width: 208px;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    @extend %gothampro-700;
+
+    &.active {
+      background-color: #33170b;
+      border-radius: 6px 6px 0 0;
+    }
+  }
+
+  &__tabs {
+    padding: 35px 35px;
+    background-color: #33170b;
+    border-radius: 0 0 6px 6px;
+  }
+
+  &__tabs-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+  }
+
+  &__tabs-item {
+    width: 160px;
+    height: 200px;
+  }
+}

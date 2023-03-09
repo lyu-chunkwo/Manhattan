@@ -1,0 +1,16 @@
+.footer {
+  &__inner {
+    padding: 30px 0;
+    border-top: 1px solid $text;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+  }
+
+  &__develope {
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
